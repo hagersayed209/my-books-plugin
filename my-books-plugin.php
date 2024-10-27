@@ -12,23 +12,7 @@ function create_books_post_type() {
         'singular_name'         => __('Book'),
         'add_new'               => __('Add New Book'),
         'add_new_item'          => __('Add New Book'),
-        'edit_item'             => __('Edit Book'),
-        'new_item'              => __('New Book'),
-        'view_item'             => __('View Book'),
-        'view_items'            => __('View Books'),
-        'search_items'          => __('Search Books'),
-        'not_found'             => __('No books found'),
-        'not_found_in_trash'    => __('No books found in Trash'),
-        'all_items'             => __('All Books'),
-        'archives'              => __('Book Archives'),
-        'attributes'            => __('Book Attributes'),
-        'insert_into_item'      => __('Insert into book'),
-        'uploaded_to_this_item' => __('Uploaded to this book'),
-        'menu_name'             => __('Books'),
-        'filter_items_list'     => __('Filter books list'),
-        'items_list'            => __('Books list'),
-        'items_list_navigation'  => __('Books list navigation'),
-        'back_to_items'         => __('← Back to books'),
+       
     );
 
     $args = array(
